@@ -1,5 +1,3 @@
-# mmb-welcome-page
-mmb-welcome-page-linkedin
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,7 +15,7 @@ mmb-welcome-page-linkedin
             background: white;
             padding: 40px;
             border-radius: 12px;
-            max-width: 500px;
+            max-width: 480px;
             margin: auto;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
@@ -26,14 +24,13 @@ mmb-welcome-page-linkedin
         }
         p {
             font-size: 18px;
-            margin-top: 20px;
         }
     </style>
 
     <script>
         setTimeout(function(){
             window.location.href = "https://www.linkedin.com/in/mamadou-mouctar-balde";
-        }, 3000); // redirection après 3 secondes
+        }, 2000);
     </script>
 </head>
 
